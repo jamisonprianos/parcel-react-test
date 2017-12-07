@@ -1,0 +1,12 @@
+@import '../../../style/main.scss';
+
+footer.site-footer {
+  height: 40px;
+  background-color: $primary-color;
+  color: $white;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 -3px 10px $shadow-color;
+}

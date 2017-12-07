@@ -1,0 +1,26 @@
+@import '../../../style/main.scss';
+
+header.site-header {
+  height: 60px;
+  background-color: $primary-color;
+  color: $white;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  box-shadow: 0 3px 10px $shadow-color;
+
+  h1 {
+    margin: 0;
+  }
+
+  button.ui.basic.inverted.button {
+    margin-left: 1rem;
+  }
+
+  .flag {
+    padding: 0 15px;
+    cursor: pointer;
+  }
+}

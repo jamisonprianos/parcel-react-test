@@ -1,0 +1,16 @@
+@import '../../../style/main.scss';
+
+.ui.container.login-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: $border-radius;
+  padding: 3rem;
+  box-shadow: 5px 5px 10px $shadow-color;
+  background-color: white;
+
+  >* {
+    margin-bottom: 2rem;
+  }
+
+}

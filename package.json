@@ -1,0 +1,22 @@
+{
+  "name": "parcel-react-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "NODE_ENV=development parcel -p 8080 ./html/index.html",
+    "build": "NODE_ENV=production parcel build ./html/index.html --no-minify"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.0.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.0"
+  },
+  "author": "Jamison Prianos",
+  "license": "UNLICENSED"
+}
